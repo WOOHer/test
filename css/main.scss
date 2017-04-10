@@ -1,0 +1,49 @@
+%clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// layout vars
+$wcontainer: 940px;
+
+// colors
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e45028;
+$orange: #e35028;
+$green: #8ac03e;
+
+//jquery
+// @import "jquery.fancybox";
+
+// layout
+@import "layout/normalize";
+@import "layout/adjustments";
+@import "layout/fonts";
+@import "layout/animate";
+
+// blocks
+@import "blocks/course-blocks";
+// @import "sections/sidebar";
+// @import "sections/start";
+// @import "sections/about";
+// @import "sections/burgers";
+// @import "sections/team";
+// @import "sections/menu";
+// @import "sections/testimonials";
+// @import "sections/contacts";
+// @import "sections/form";
+// @import "sections/map";
+// @import "sections/footer";
+
+// media
+// @import "media/desktop";
+// @import "media/laptop";
+// @import "media/tablets";
+// @import "media/phones";
